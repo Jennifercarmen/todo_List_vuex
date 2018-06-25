@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vuex</title>
+</head>
+
+<body>
+    <main id="app" class="toDo-container">
+        <h1>Todo List con vuex
+        </h1>
+        <todo-add></todo-add>
+        <todo-list></todo-list>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vuex/3.0.1/vuex.js"></script>
+    <script>
+        const state = {
+            todos: [
+
+            ]
+        }
+        const getters = {
+            getTodos: state => state.todos
+
+        }
+        const mutations = {
+            ADD_TODO: (state,payload) => {
+                
+            },
+            TOGLE_TODO: (state,payload) => {
+
+            },
+            DELETE_TODO: (state,payload) => {
+
+            },
+
+        }
+        const actions = {
+
+        }
+
+    </script>
+</body>
+
+</html>
